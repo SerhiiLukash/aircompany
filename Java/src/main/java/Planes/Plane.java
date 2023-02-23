@@ -1,5 +1,7 @@
 package Planes;
 
+import models.MilitaryType;
+
 import java.util.Objects;
 
 abstract public class Plane {
@@ -30,7 +32,7 @@ abstract public class Plane {
         return maxFlightDistance;
     }
 
-    public int getMinLoadCapacity() {
+    public int getMaxLoadCapacity() {
         return maxLoadCapacity;
     }
 
@@ -76,4 +78,7 @@ abstract public class Plane {
 
         return Objects.hash(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
     }
+
+
+
 }
