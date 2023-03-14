@@ -1,7 +1,7 @@
-import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
+import com.epam.aircompany.models.MilitaryType;
+import com.epam.aircompany.planes.MilitaryPlane;
+import com.epam.aircompany.planes.PassengerPlane;
+import com.epam.aircompany.planes.Plane;
 
 import java.util.Arrays;
 import java.util.List;
